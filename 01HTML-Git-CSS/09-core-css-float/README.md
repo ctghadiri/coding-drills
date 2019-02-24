@@ -16,5 +16,8 @@
 
 4. Play around a bit with the floats to see how they interact with each other
   * What happens if we don't clear the float for the blue boxes?
+    - blue boxes fall behind the red box
   * What happens if we float both the red and yellow box left?
+    - the red box stays to the left and yellow shifts next to the red box
   * What happens if we float both the red and yellow box right and the blue boxes left?
+    - the red and yellow move to the right side by side and the blue stacks to the right
