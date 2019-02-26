@@ -230,9 +230,10 @@ console.log("     sum of multiples of 3      ");
 // console log the sum of all the numbers that are a multiple of 3
 var sum = 0;
 for (var outerIndex = 0; outerIndex < twoDimArray.length; outerIndex++) {
-  for (var innerIndex = 0; innerIndex < twoDimArray[outerIndex][innerIndex]; innerIndex++) {
+  for (var innerIndex = 0; innerIndex < twoDimArray[outerIndex].length; innerIndex++) {
     if ((twoDimArray[outerIndex][innerIndex] % 3) === 0) {
       sum += twoDimArray[outerIndex][innerIndex];
+      console.log(twoDimArray[outerIndex][innerIndex])
     }
   }
 }
