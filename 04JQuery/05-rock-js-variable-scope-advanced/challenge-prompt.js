@@ -16,7 +16,8 @@ var tracked = "We're";
 
 console.log("==================== Question 01 ====================");
 // What is the value of `tracked` here?
-// 
+// "We're"
+console.log(tracked)
 
 
 
@@ -28,7 +29,8 @@ function loseTracked1() {
 
 console.log("==================== Question 02 ====================");
 // What is the value of `tracked` here?
-// 
+// "We're"
+console.log(tracked)
 
 
 
@@ -40,7 +42,8 @@ function loseTracked2(arg) {
 
 console.log("==================== Question 03 ====================");
 // What is the value of `tracked` here?
-// 
+// "We're"
+console.log(tracked)
 
 
 
@@ -49,8 +52,9 @@ loseTracked3();
 function loseTracked3(tracked) {
   console.log("==================== Question 04 ====================");
   // What is the value of `tracked` here?
-  // 
+  // "undefined"
 
+  console.log(tracked)
 }
 
 
@@ -63,7 +67,8 @@ function loseTracked4() {
 
 console.log("==================== Question 05 ====================");
 // What is the value of `tracked` here?
-// 
+// "to"
+console.log(tracked)
 
 
 
@@ -75,7 +80,8 @@ function loseTracked5(arg) {
 
 console.log("==================== Question 06 ====================");
 // What is the value of `tracked` here?
-// 
+// "love"
+console.log(tracked)
 
 
 
@@ -86,7 +92,8 @@ function loseTracked6(arg) {
 
   console.log("==================== Question 07 ====================");
   // What is the value of `tracked` here?
-  // 
+  // "love"
+  console.log(tracked)
 
 }
 
@@ -94,7 +101,8 @@ function loseTracked6(arg) {
 
 console.log("==================== Question 08 ====================");
 // What is the value of `tracked` here?
-// 
+// "love"
+console.log(tracked)
 
 
 
@@ -107,7 +115,8 @@ function loseTracked7(tracked) {
 
   console.log("==================== Question 09 ====================");
   // What is the value of `tracked` here?
-  // 
+  // "rules"
+  console.log(tracked)
 
 }
 
@@ -115,8 +124,9 @@ function loseTracked7(tracked) {
 
 console.log("==================== Question 10 ====================");
 // What is the value of `tracked` here?
-// 
+// "the"
 
+console.log(tracked)
 
 
 loseTracked8("and");
@@ -126,8 +136,9 @@ function loseTracked8(arg) {
 
   console.log("==================== Question 11 ====================");
   // What is the value of `tracked` here?
-  // 
+  // "and"
 
+  console.log(tracked)
 
 }
 
@@ -135,9 +146,10 @@ function loseTracked8(arg) {
 
 console.log("==================== Question 12 ====================");
 // What is the value of `tracked` here?
-// 
+// "the"
 
 
+console.log(tracked)
 
 var newTracked = "so";
 
@@ -147,8 +159,9 @@ function loseTracked9() {
 
 console.log("==================== Question 13 ====================");
 // What is the value of `tracked` here?
-// 
+// "the"
 
+console.log(tracked)
 
 
 loseTracked10("do");
@@ -161,8 +174,9 @@ tracked = newTracked;
 
 console.log("==================== Question 14 ====================");
 // What is the value of `tracked` here?
-// 
+// "so"
 
+console.log(tracked)
 
 
 tracked = 12;
@@ -175,8 +189,9 @@ function loseTracked11(arg) {
 
 console.log("==================== Question 15 ====================");
 // What is the value of `tracked` here?
-// 
+// 12
 
+console.log(tracked)
 
 
 tracked = false;
@@ -189,7 +204,8 @@ function loseTracked12(arg) {
 
 console.log("==================== Question 16 ====================");
 // What is the value of `tracked` here?
-// 
+// false
+console.log(tracked)
 
 
 
@@ -203,7 +219,8 @@ function loseTracked13(arg) {
 
 console.log("==================== Question 17 ====================");
 // What is the value of `tracked` here?
-// 
+// {a: "hello", b: "world"}
+console.log(tracked)
 
 
 
@@ -217,8 +234,9 @@ function loseTracked14(arg) {
 
 console.log("==================== Question 18 ====================");
 // What is the value of `tracked` here?
-// 
+// ["variable", "scoping", "is"]
 
+console.log(tracked)
 
 
 tracked = ["Testing", "Arrays"];
@@ -232,7 +250,8 @@ function loseTracked15(arg) {
 
   console.log("==================== Question 19 ====================");
   // What is the value of `tracked` here?
-  // 
+  // ["WHAT!?", "Arrays!"]
+  console.log(tracked)
 
 }
 
@@ -240,7 +259,8 @@ function loseTracked15(arg) {
 
 console.log("==================== Question 20 ====================");
 // What is the value of `tracked` here?
-// 
+// ["Testing", "Arrays"]
+console.log(tracked)
 
 
 
@@ -255,16 +275,17 @@ function loseTracked16(arg) {
 
   console.log("==================== Question 21 ====================");
   // What is the value of `tracked` here?
-  // 
+  // {Dot Notation!: "Bracket Notation!", objects: "?"}
+  console.log(tracked)
 
 }
 
 
 
-
 console.log("==================== Question 22 ====================");
 // What is the value of `tracked` here?
-// 
+// {Dot Notation!: "Bracket Notation!", objects: "?"}
+console.log(tracked)
 
 
 
@@ -278,7 +299,8 @@ function loseTracked17(arg) {
 
   console.log("==================== Question 23 ====================");
   // What is the value of `tracked` here?
-  // 
+  // "Never Gonna Give You Up"
+  console.log(tracked)
 
 }
 
@@ -286,4 +308,5 @@ function loseTracked17(arg) {
 
 console.log("==================== Question 24 ====================");
 // What is the value of `tracked` here?
-// 
+//"Never Gonna Give You Up"
+console.log(tracked)
