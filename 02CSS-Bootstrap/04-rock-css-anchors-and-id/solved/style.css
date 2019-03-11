@@ -69,3 +69,5 @@
   width: 100vw;
   background-color: teal;
 }
+
+/* not sure about why we would use vh versus the other options available. is it better to use this for certain things */
