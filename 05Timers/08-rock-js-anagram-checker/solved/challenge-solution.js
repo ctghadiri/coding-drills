@@ -12,6 +12,8 @@ function anagramCheck (str1, str2) {
   str1 = str1.replace(/\s/g, '');
   str2 = str2.replace(/\s/g, '');
 
+// there is another option i think but i believe itll add the space /\s+/g
+
   // if the two strings aren't equal in length without white space, then they can't
   // be anagrams of each other
   if (str1.length !== str2.length) {
