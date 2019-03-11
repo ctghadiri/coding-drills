@@ -46,7 +46,7 @@ function sortDescending(arr) {
 
 // --------------------- End Code Area --------------------
 
-
+// pretty much got this
 
 // -------------------------------------------------------
 //                        Sort Function

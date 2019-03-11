@@ -42,4 +42,4 @@ $(function() {
   // --------------------- End Code Area --------------------
 
 })
-
+// this is pretty straightforward but definitely gonna do this one again

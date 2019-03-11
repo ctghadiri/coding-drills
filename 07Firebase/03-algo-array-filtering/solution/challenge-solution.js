@@ -45,7 +45,7 @@ function primeSort(arr) {
 
   // --------------------- End Code Area --------------------
 }
-
+// i understand whats going on but totally forgot that 1 is not a prime number
 
 // ------------------------------------------------------------------
 console.log("==================== Test 01 ====================");

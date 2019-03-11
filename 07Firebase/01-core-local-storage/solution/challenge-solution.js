@@ -14,6 +14,7 @@ function displayButtons(buttons){
 
   }
 }
+// this is interesting though couldnt you just add a different class to it or does that make things too messy
 
 // this function takes in a string, an index, a replacement string
 // and inserts the replacement at the index within in the string,
@@ -73,7 +74,7 @@ $(function() {
     localStorage.setItem("buttons", buttonColors)
 
     // --------------------- End Code Area --------------------
-
+    // pretty interesting
 
     // update the display of the buttons with the new color values.
     displayButtons(buttonColors);
