@@ -6,10 +6,10 @@
 // display the string in the display-area when clicked later.
 function createButton(str) {
   // ---------- Your Code Here ----------
-var newButton = $("<div>");
-newButton.addClass("1");
+var newButton = $("<button>");
+newButton.addClass("button");
 newButton.text(str);
-newButton.data(" ", str);
+newButton.data("content", str);
 $("#button-area").append(newButton);
 
   // ---------- End of Code area ----------
@@ -26,8 +26,8 @@ $("#button-area").append(newButton);
 function displayContent(event) {
   // ---------- Your Code Here ----------
 
-
-newButton.append.data(" ")
+var dataText = $(this).data("content")
+$("#display-area").append.data(dataText)
 
 
 
@@ -41,10 +41,18 @@ newButton.append.data(" ")
 $(function () {
   // ---------- Your Code Here ----------
 
+$(document).on("click", ".content-button", displayContent)
+$(document).on("click", "#clear-button", function(event) {
+  event.preventDefault();
+  $("#display-area").empty();
+});
 
-
-
-
+$(document).on("click", "#submit-button", function(event){
+  event.preventDefault();
+  var buttonText = $("#user-input").val();
+  $("#user-input").val("");
+  createButton(buttonText)
+});
 
   // ---------- End of Code area ----------
 })
