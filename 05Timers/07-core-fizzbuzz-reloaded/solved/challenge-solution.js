@@ -12,7 +12,7 @@ function checkWibble(str) {
   
   // ----------- End Code Area -----------
 }
-
+// makes sense
 
 // This function checks whether the argument string fulfills the requirements
 // for "Wobble". It should return true if the string has an odd number of vowels
@@ -44,7 +44,7 @@ function checkWobble(str) {
 
   // ----------- End Code Area -----------
 }
-
+// i understand this one
 
 // This is the `wibbleWobble` function. It takes in an array of strings and replaces
 // the elements that have an even number of characters with "Wibble" and the elements
@@ -82,7 +82,7 @@ function wibbleWobble(arr) {
   return arr;
 }
 
-
+// i think we did this one in class
 // The following code will call on your function and display the results on the webpage
 $(function() {
 
@@ -120,3 +120,6 @@ $(function() {
   }
 
 })
+
+// not very familiar with the slice i understand everything else
+// so it just takes the items specified by slice
