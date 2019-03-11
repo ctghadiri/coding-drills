@@ -22,3 +22,4 @@ var testArray = [34, 23, 3, 20, 84, 18, 76, 9];
 testArray = bubbleSort(testArray);
 console.log(testArray);
 
+// would .sort be a faster method than this

@@ -17,3 +17,4 @@ $(document).submit(function () {
 
 })
 
+// im familiar with this but should we have this memorized or would this be something that we can google
