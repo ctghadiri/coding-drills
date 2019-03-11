@@ -40,6 +40,8 @@ function returnCustomObject(arr){
 	return obj;
 }
 
+// so this will return an object with the list numbering the amount of times the value came.
+
 // calling on your function and storing the return value
 var toyInventoryObj = returnCustomObject(toyArray);
 console.log(toyInventoryObj);
@@ -91,7 +93,7 @@ function greatestFrequency(toyInventory){
 // "The toy that occurs the greatest number of times is 'Mr. Potato Head', which occurs 3 times."
 greatestFrequency(toyInventoryObj);
 
-
+// i like this
 
 
 // ------------------------------------------------------------------
@@ -271,7 +273,7 @@ function testObject(obj) {
 console.log(testObject(customObject));
 
 
-
+// 
 
 // ------------------------------------------------------------------
 console.log("==================== Question 05  ====================");
@@ -298,7 +300,7 @@ function areDups(arr){
 
   // if we've iterated through the entire array without encountering a duplicate, then there are no duplicates
   return false;
-
+  // having some trouble wrapping my head around this method
   // ---------- End of Code Area ----------
 
 }
