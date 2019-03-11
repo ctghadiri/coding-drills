@@ -7,12 +7,21 @@
 // We will be defining this function right now and invoking it later
 function populateButtons() {
   // Your code goes here
+  buttonHello= $("<button>");
+  buttonHello.text("Hello");
+  buttonHello.append("data", "Hello")
 
+  buttonWorld= $("<button>");
+  buttonWorld.text("World");
+  buttonWorld.append("data", "World")
 
+  buttonClear= $("<button>");
+  buttonClear.text("");
+  buttonClear.append("data", "")
 
-
-
-
+  $("#buttons-area").append(buttonHello)
+  $("#buttons-area").append(buttonWorld)
+  $("#user-button-area").append(buttonClear)
 
   // End of your code area
 }
@@ -29,11 +38,9 @@ $(function () {
   // Refer to step 4 on the README
   document.onkeyup = function(event) {
     // Your code goes here
-
-
-
-
-
+    var buttonPressed= $("#user-button-area").attr("data");
+    buttonPressed += event.key;
+    $("#user-button-area").attr("data", buttonPressed);
 
 
     // End of your code area
@@ -44,13 +51,15 @@ $(function () {
   // Refer to step 3 on the README
   $(document).on("click", "button", function (event) {
     // Your code goes here
-
-
-
-
-
-
-
+    switch ($(this).attr("data")){
+      case "Hello":
+      case "World":
+        $("#output").append($(this).attr("data"));
+        break;
+      default:
+        $("#output").text($(this).attr("data"));
+        $(this).attr("data", "")
+    }
     // End of your code area
   })
 
