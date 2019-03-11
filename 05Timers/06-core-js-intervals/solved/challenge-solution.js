@@ -50,7 +50,7 @@ var question05 = setInterval(function () {
     clearInterval(question05);
   }
 }, 1000 * 1);
-
+// so within this loop it adds numbers till it reaches 5 or higher that stops the interval
 
 // ------------------------------------------------------------------
 console.log("==================== Question 06 ====================");
@@ -66,7 +66,7 @@ setTimeout(function() {
   clearInterval(question06)
 }, 1000 * 6);
 
-
+// this just stops the timer but doesn't remove "6" unless we clear the div
 // ------------------------------------------------------------------
 console.log("==================== Question 07 ====================");
 // create a timer to remove the interval from question 1 after 10 seconds
