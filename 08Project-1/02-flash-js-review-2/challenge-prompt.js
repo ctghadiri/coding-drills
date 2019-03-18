@@ -6,10 +6,9 @@ Given an array and an element of any type, create a function that returns an arr
 
 function addToEndOfArr(arr, element) {
   // your code here
-
-  
-
-
+  var newArr = arr.slice();
+  newArr.push(element);
+  return newArr;
 }
 
 var inputOne = [1, 2];
@@ -29,10 +28,8 @@ Notes:Assume that sales tax is 9.5% and tip is 15%.
 
 function totalBill(preTaxAndTipAmount) {
   // your code here
-
-  
-
-
+  var postTaxAndTipAmount = preTaxAndTipAmount*1.095
+  return postTaxAndTipAmount*1.15
 
 }
 var outputTwo = totalBill(20);
@@ -49,7 +46,7 @@ Reference:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glob
 
 function areaOfACircle(radius) {
   // your code here
-
+ return radius*radius*Math.PI
 }
 var outputThree = areaOfACircle(4);
 console.log(outputThree); // --> 50.26548245743669
@@ -64,20 +61,25 @@ console.log("////////////////////////////// QUESTION 2.4 \\\\\\\\\\\\\\\\\\\\\\\
 function findLongestWord(word1, word2, word3) {
   // your code here
   // Step 1 // concat all three strings into one large string with space inbetween
-
+ var wordConcat = word1.concat(" " + word2 + " " + word3);
   
 
 
   // Step 2 create an array of these three words by spliting them at the space
-
+  var wordArr = wordConcat.split(" "); 
   
 
   // Step 2.5 // create a variable called largest equal to the first index of the array
-
+  var largest = wordArr[0]
   
 
   // Step 3 // loop through to compare and find smallest length and then return the largest length
-
+  for(var i = 0; i < wordArr.length; i++){
+    if(wordArr[i].length > largest.length){
+      largest = wordArr[i];
+    }
+  }
+  return largest.length;
  
   
   
