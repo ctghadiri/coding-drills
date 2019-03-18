@@ -7,24 +7,18 @@ console.log("////////////////////////////// QUESTION 3.1 \\\\\\\\\\\\\\\\\\\\\\\
   *Bonus If given an empty array, it should return 0*
 
 */
-
+var total = 0;
 function averageNumbers(nums) {
   // your code here
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+  for(var i = 0; i < nums.length; i++){
+    if(nums.length > 0){
+      total += nums[i];
+      return total / nums.length;
+    }
+    else{
+      return 0
+    }
+  }
   // code ends here
 }
 
@@ -42,12 +36,11 @@ Given an object, "keysCounter" returns how many properties the given object has.
 */
 function keysCounter(obj) {
   // your code here
-
-  
-
-
-
-
+  var count = 0;
+  for (var prop in obj){
+    count++
+  }
+  return count;
   // code ends here
 }
 
