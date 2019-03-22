@@ -10,7 +10,15 @@ console.log("////////////////////////////// QUESTION 5.1 \\\\\\\\\\\\\\\\\\\\\\\
 
 function missingNumber(arr){
     // =========== code starts here =============
-
+  function sortNumber(a,b){
+    return a-b
+  };
+  arr.sort(sortNumber);
+  for (var i = 0; i < arr.length; i++){
+    if(arr[i] !== arr[i-1]+1){
+      return arr[i]
+    }
+  }
     
 
 

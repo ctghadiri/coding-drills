@@ -6,9 +6,7 @@
 // console log "Hello World"
 
 // ---------- code starts here ----------
-
-
-
+console.log("hello world")
 
 
 // ---------- code ends here ---------- 
@@ -19,7 +17,7 @@
 
 // ---------- code starts here ---------- 
 
-
+console.log(process.argv)
 
 
 
@@ -34,7 +32,7 @@
 // ---------- code starts here ---------- 
 
 
-
+console.log(process.argv[2]+process.argv[3])
 
 
 
@@ -47,9 +45,20 @@
 // For any other command line arguments, console log "Minion RAGE!"
 
 // ---------- code starts here ---------- 
-
-
-
+arg1 = process.argv[2]
+arg2 = process.argv[3]
+function minion(arg1, arg2){
+    if((arg1==="minion") && (arg2==="army")){
+        console.log("I have found gru!");
+    }
+    else if((arg1==="minion") && (arg2!=="army")){
+        console.log("Still looking for gru")
+    }
+    else{
+        console.log("minion rage!")
+    }
+}
+minion();
 
 
 

@@ -7,7 +7,12 @@ Given an array of strings, "evenWordLengthOnly" returns an array containing only
 */
 function evenWordLengthOnly(words) {
   // your code here
-
+  for(var i = 0; i < words.length; i++){
+    if(words[i].length % 2 !== 0){
+      words.splice(i, 1)
+      return words
+    }
+  }
   
 
 
@@ -30,10 +35,17 @@ Notes:
 */
 function countWords(str) {
   // your code here
-
-  
-
-
+  var wordArr = str.split(' ');
+  var wordsObj = {};
+  for(var i = 0; i < wordArr.length; i++){
+    if(wordArr[i] in wordsObj){
+      wordsObj[wordArr[i]]++;
+    }
+    else{
+      wordsObj[arr[i]] = 1;
+    }
+  }
+  return wordsObj;
 
 
 
